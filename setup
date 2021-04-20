@@ -1,3 +1,10 @@
 sudo apt update
 sudo apt install -y python3-pip firefox
 sudo pip3 install selenium
+
+sudo echo "* * * * * ( cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
+sudo echo "* * * * * ( sleep 10 ; cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
+sudo echo "* * * * * ( sleep 20 ; cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
+sudo echo "* * * * * ( sleep 30 ; cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
+sudo echo "* * * * * ( sleep 40 ; cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
+sudo echo "* * * * * ( sleep 50 ; cd /home/ubuntu/bot/ && /usr/bin/python3 /home/ubuntu/bot/code.py )" >> /var/spool/cron/crontabs/ubuntu
